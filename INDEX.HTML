@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITBIT GYM</title>
+    
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+<style>
+     body{
+        font-family: 'Piedra', cursive;
+         margin: 0px;
+         padding: 0px;
+         background-image: url(img/img.jpeg);
+        
+         color: aliceblue;
+     }
+     .left{
+      
+        left: 34px;
+         top: 22px;
+         position: absolute;
+        
+        display: inline-block;
+        
+     }
+     .mid{
+      display: block;
+      width: 45%;
+      margin: 22px auto;
+      
+       
+     }
+     .right{
+        display: inline-block;
+        
+         right: 34px;
+         top: 22px;
+         position: absolute;
+     }
+     .navbar{
+         list-style: none;
+         text-decoration: none;
+         display: inline-block;
+     }
+     .navbar li{
+         display: inline-block;
+     }
+     .navbar li a{
+         font-size: 25px;
+         color: white;
+         text-decoration: none;
+         padding: 23px 23px;
+     }
+     .navbar li a:hover , .navbar li a.active{
+         background-color: white;
+         color: black;
+     }
+     .left img{
+         width: 90px;
+         height: 90px;
+         display: inline-block;
+         margin-left: 11%;
+     }
+     .left div{
+         text-align: center;
+     }
+     .btn{
+        font-family: 'Piedra', cursive;
+         background-color: black;
+         color: white;
+         margin: 0px 9px;
+         padding: 16px 12px;
+         border: 2px solid grey;
+         border-radius: 10px;
+         font-size: 24px;
+         cursor: pointer;
+     }
+     .btn:hover{
+         background-color: gray;
+     }
+     .left div{
+         font-size: 23px;
+     }
+     .container{
+        border: 2px solid white;
+    margin: 165px 20px;
+    padding: 3px;
+    
+    width: 35%;
+    border-radius: 28px;
+     }
+     .form-group input{
+        font-family: 'Piedra', cursive;
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 15px auto;
+        font-size: 30px;
+        border-radius: 15px;
+        
+     }
+     .container h1{
+         text-align: centre;
+         display: inline-block;
+         padding-left: 29px;
+     }
+
+     .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+           <img src="img/logo.jpg" alt="">
+           <div >FIT-BIT GYM</div>
+        </div>
+        <div class="mid">
+          <ul class="navbar">
+              <li><a href="#"> HOME</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">TRAINERS</a></li>
+              <li><a href="#">CONTACT US</a></li>
+          </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us</button>
+            <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN OF OF THE MOST TOP-NOTCH GYM IN DELHI</h1>
+       <form action="noaction.php">
+       
+        <div class="form-group">
+            <input type="text " placeholder="Enter Name">
+           </div>
+          
+           <div class="form-group">
+            <input type="text " placeholder="Enter M.no">
+                   </div>
+                  
+                   <div class="form-group">
+                    <input type="text " placeholder="Preferred Slot">
+                           </div>
+                          
+                           <div class="form-group">
+                            <input type="text " placeholder="Course u want to enroll into">
+                                   </div> 
+
+                <button class="btn">submit</button>
+                                  
+       </form>
+      
+    </div>
+    
+</body>
+</html>
